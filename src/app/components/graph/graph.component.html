@@ -1,6 +1,7 @@
+
+<div class="chart-container" >
 <ngx-charts-bar-vertical
-  [view]="view"
-  [scheme]="colorScheme"
+   [scheme]="colorScheme"
   [results]="results"
   [gradient]="gradient"
   [xAxis]="showXAxis"
@@ -10,5 +11,9 @@
   [showYAxisLabel]="showYAxisLabel"
   [xAxisLabel]="xAxisLabel"
   [yAxisLabel]="yAxisLabel"
-  (select)="onSelect($event)">
+  (select)="onSelect($event)"
+  style="fill:gray"
+  >
 </ngx-charts-bar-vertical>
+
+</div>
